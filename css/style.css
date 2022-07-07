@@ -301,6 +301,18 @@ img {
     text-align: left;
 }
 
+.skills_box_svg_container {
+    margin: 0;
+    padding: 0;
+    padding-top: 25px;
+    padding-right: 100px;
+    padding-bottom: 25px;
+    padding-left: 100px;
+    background: var(--fours_background_page_color);
+    border-radius: 4px;
+    margin-bottom: 30px;
+}
+
 /* ::before {
     box-sizing: border-box;
 }
@@ -322,9 +334,15 @@ img {
     img: url(/images/svg/icon-group_1_focus_on_details);
 } */
 
-.skills_box_svg {
+/* .skills_box_svg {
+
     margin-bottom: 30px;
-}
+} */
+
+/* .skills_box_svg_container {
+    text-align: center;
+    padding: 25px 100px 25px 100px;
+} */
 
 .personal_skills {
     font-weight: 700;

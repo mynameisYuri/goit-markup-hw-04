@@ -510,34 +510,62 @@ img {
     justify-content: center;
 }
 
-
-
-.regular_customers_item_button {
-    padding: 0;
-    border: 1px solid #AFB1B8;
-    border-radius: 4px;
-    width: 170px;
-    height: 92px;
-    background-color: var(--first_background_page_color);
-    fill: #AFB1B8;
-}
-
-.regular_customers_item_button:hover {
-    border: 1px solid #2196F3;
-    fill: var(--hover_color);
-}
-
-.regular_customers_item_button:focus {
-    /* outline: none;
-    border: 1px solid #2196F3; */
-    fill: var(--hover_color);
-}
-
 .regular_customers_svg_style {
     margin: auto;
     text-align: center;
     display: block;
 }
+
+.regular_customers_item_parttwo:not(:last-child) {
+    margin-right: 30px;
+}
+
+.regular_customers_item_parttwo {
+    background-color: var(--first_background_page_color);
+        
+    width: 170px;
+    height: 92px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+/* .regular_customers_item_link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    text-decoration: none;
+
+} */
+
+.regular_customers_item_link_container {
+    margin: 0;
+    padding: 0;
+    width: 170px;
+    height: 92px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    text-decoration: none;
+    fill: #AFB1B8;
+}
+
+.regular_customers_item_link_container:hover {
+    border: 1px solid #2196F3;
+    fill: var(--hover_color);
+}
+
+.regular_customers_item_link_container:focus {
+    fill: var(--hover_color);
+}
+
 
 /*----------------------------------------------------КОНТАКТЫ----------------------------------------------------*/
 

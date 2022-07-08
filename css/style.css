@@ -275,7 +275,7 @@ img {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 200px 452px 200px 452px;
+    padding: 200px 0px 200px 0px;
     flex-grow: 1;
     /* max-width: 1600px; */
 }
@@ -304,10 +304,10 @@ img {
 .skills_box_svg_container {
     margin: 0;
     padding: 0;
-    padding-top: 25px;
-    padding-right: 100px;
-    padding-bottom: 25px;
-    padding-left: 100px;
+    height: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background: var(--fours_background_page_color);
     border-radius: 4px;
     margin-bottom: 30px;
@@ -509,6 +509,8 @@ img {
     display: flex;
     justify-content: center;
 }
+
+
 
 .regular_customers_item_button {
     padding: 0;
